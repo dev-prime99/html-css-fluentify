@@ -85,6 +85,14 @@ nav span.textnav{
   background-color: #f9f9f9;
 }
 
+.banner2{
+  background-color: #f9f9f9;
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .riga{
   width: 33.3%;
   float: left;
@@ -168,6 +176,55 @@ body hr{
   padding: 20px 0 5px 0;
 }
 
+.due{
+  text-align: left;
+  width: 85%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.due p{
+  float: left;
+  padding-bottom: 30px;
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.sono{
+  float: right;
+  width: 50%
+}
+
+.sono form{
+  display: inline;
+}
+
+select {
+
+  width: 20%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+option{
+
+}
+
+.piano2{
+  padding: 8px 5px;
+  background-color: #7fb802;
+  border-radius: 5px;
+
+}
+
+.piano2 a{
+  text-decoration: none;
+}
+
 
 /* FOOTER */
 
@@ -225,4 +282,27 @@ footer li{
 footer a{
   color: white;
   text-decoration: none;
+}
+
+.right{
+  float: left;
+  width: 35%;
+}
+
+.right h2{
+  color:rgb(255, 255, 255);
+  padding-top: 70px;
+  text-align: right;
+}
+
+.right h3{
+  text-align: right;
+  padding-top: 15px;
+}
+
+.right p{
+  text-align: right;
+  padding-top: 35px;
+  opacity: 0.4;
+  line-height: 25px;
 }
