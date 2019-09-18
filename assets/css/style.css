@@ -26,11 +26,11 @@ header{
 #logo{
 }
 
-ul{
+nav ul{
   display: inline;
 }
 
-li{
+nav li{
   display: inline-block;
   padding: 0px;
   margin-left: 12px;
@@ -134,6 +134,13 @@ body hr{
   margin: 0 15px;
 }
 
+.livello{
+  content: "";
+  display: table;
+  clear: both;
+  height: 600px;
+}
+
 .imgterzo{
   width: 60%;
   float: left;
@@ -147,7 +154,6 @@ body hr{
 
 .terzo{
   width: 40%;
-  height: 500px;
   float: right;
   padding: 140px 0 0px 0;
 }
@@ -160,4 +166,63 @@ body hr{
 
 .terzo p{
   padding: 20px 0 5px 0;
+}
+
+
+/* FOOTER */
+
+footer{
+  width: 100%;
+  background-color: #17406b;
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 50px;
+}
+
+.fq{
+  padding: 40px 0 40px 30px;
+  color: white;
+  background-color: #0f335a;
+}
+
+.fq a{
+  color: #f0ad4e;
+}
+
+.fq h3{
+  font-size: 30px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.fq p{
+  opacity: 0.5;
+  font-size: 17px;
+}
+
+.left{
+  float: left;
+  width: 50%;
+}
+
+
+h6{
+  padding: 60px 0 10px 0;
+  font-size: 15px;
+}
+
+footer ul{
+
+}
+
+footer li{
+  list-style-type: none;
+  padding: 8px 0;
+  opacity: 0.5;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
 }
