@@ -73,3 +73,91 @@ nav span.textnav{
   font-size: 20px;
   padding-top: 120px;
 }
+
+
+/* CENTRO */
+
+
+
+.banner{
+  text-align: center;
+  padding: 40px 20px 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.riga{
+  width: 33.3%;
+  float: left;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.img{
+  height: 180px;
+}
+
+h2{
+  color: #7fb802;
+  font-size: 20px;
+  padding: 40px 0 20px 0;
+}
+
+.riga hr{
+  opacity: .3;
+  width: 32px;
+  border: 1px solid;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h2#centro{
+  padding-bottom: 40px
+}
+
+.riga p{
+  opacity: 0.4;
+  padding: 20px;
+}
+
+section{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body hr{
+  border: 0.5px rgba(0, 0, 0, 0.2) solid;
+  margin: 0 15px;
+}
+
+.imgterzo{
+  width: 60%;
+  float: left;
+  padding: 90px 0 0 40px;
+}
+
+.imgterzo img{
+  width: 417px;
+  height: 354px;
+}
+
+.terzo{
+  width: 40%;
+  height: 500px;
+  float: right;
+  padding: 140px 0 0px 0;
+}
+
+.terzo h3{
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+.terzo p{
+  padding: 20px 0 5px 0;
+}
